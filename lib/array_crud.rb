@@ -7,15 +7,15 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- add_element_to_end_of_arrayte_an_array << "brother"
+ add_element_to_end_of_array << "brother"
 end
 
 def add_element_to_start_of_array(array, element)
-  create_an_array.unshift ("cousin")
+  add_element_to_start_of_array.unshift ("cousin")
 end
 
 def remove_element_from_end_of_array(array)
-  me_family = create_an_array.pop
+  me_family = remove_element_from_end_of_array.pop
 end
 
 def remove_element_from_start_of_array(array)
