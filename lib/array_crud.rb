@@ -33,6 +33,7 @@ end
 
 def retrieve_last_element_from_array(array)
   array[-1]
+  #array.last other option
 end
 
 def update_element_from_index(array, index_number, element)
